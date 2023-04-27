@@ -54,7 +54,7 @@ public class StepDefinition {
 	@When("User can able to enter name and data")
 	public void user_can_able_to_enter_name_and_data() {
 	    driver.findElement(By.id("email")).sendKeys("janagan");
-	    driver.findElement(By.id("pass")).sendKeys("kumar");
+	    driver.findElement(By.id("pas")).sendKeys("kumar");
 	}
 
 	@Then("User logined successfully")
